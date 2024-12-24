@@ -29,6 +29,8 @@ DEBUG = False
 ALLOWED_HOSTS = [
     'localhost',
     '3.25.197.2',
+    'chanung-ki.site',
+    'www.chanung-ki.site',
 ]
 
 # Application definition
