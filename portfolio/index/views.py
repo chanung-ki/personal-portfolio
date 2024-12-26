@@ -5,5 +5,4 @@ logger = logging.getLogger('django')
 
 # Create your views here.
 def index(request):
-    raise Exception
     return render(request, 'index.html')
