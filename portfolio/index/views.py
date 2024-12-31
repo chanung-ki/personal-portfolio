@@ -5,4 +5,4 @@ logger = logging.getLogger('django')
 
 # Create your views here.
 def index(request):
-    return render(request, 'index.html')
+    return render(request, 'index-orange-theme.html')

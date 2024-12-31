@@ -1,0 +1,443 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Portfolio-ChanUngKi</title>
+        <link rel="icon" type="image/x-icon" href="{% static "orange/assets/img/favicon.ico" %}" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        {% comment %} <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" /> {% endcomment %}
+        {% comment %} <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" /> {% endcomment %}
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="{% static "orange/css/styles.css" %}" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">Portfolio</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="{% static "orange/assets/img/self-image.png" %}" alt="..." /></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#career">Career</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#other">Other</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h2 class="mb-0">
+                        <span class="text-primary">KI CHAN UNG</span>
+                    </h2>
+                    <h2 class="mb-5">
+                        기 찬 웅
+                    </h2>
+                    <p class="lead mb-2">개발을 하면서 기술적 역량뿐만 아니라 동료와의 커뮤니케이션과 협업의 중요성을 깊이 깨달았습니다.</p>
+                    <p class="lead mb-2">저는 뛰어난 업무 능력을 갖추는 것을 넘어, 팀의 신뢰와 유대감을 형성하는 데 기여하고 싶습니다.</p>
+                    <p class="lead mb-5">팀에 꼭 필요한 구성원으로 성장하며, 긍정적인 영향을 주는 개발자가 되겠습니다.</p>
+                    
+                    {% comment %} <div class="social-icons">
+                        <a class="social-icon" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" href="#!"><i class="fab fa-github"></i></a>
+                        <a class="social-icon" href="#!"><i class="fab fa-twitter"></i></a>
+                        <a class="social-icon" href="#!"><i class="fab fa-facebook-f"></i></a>
+                    </div> {% endcomment %}
+
+                    <div class="subheading mb-3">INFORMATION</div>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fa-solid fa-user"></i></span>
+                            기 찬 웅
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-phone"></i></span>
+                            010-2242-4742
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fa-solid fa-envelope"></i></span>
+                            cksdnd7416@gmail.com
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fa-solid fa-calendar-days"></i></span>
+                            1997.02.16
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fa-brands fa-github"></i></span>
+                            <a href="https://github.com/chanung-ki" target="_blank">https://github.com/chanung-ki</a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Skills-->
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Skills</h2>
+                    <div class="subheading mb-3">Programming & Tools</div>
+                    <ul class="list-inline dev-icons">
+                        <img class="skill-icon" src="{% static "orange/assets/img/skills/django.svg" %}" alt="django"/>
+                        <img class="skill-icon" src="{% static "orange/assets/img/skills/python.svg" %}" alt="python" />
+                        <img class="skill-icon" src="{% static "orange/assets/img/skills/react.svg" %}" alt="react" />
+                        <img class="skill-icon" src="{% static "orange/assets/img/skills/javascript.svg" %}" alt="javascript" />
+                        <img class="skill-icon" src="{% static "orange/assets/img/skills/html.svg" %}" alt="html" />
+                        <img class="skill-icon" src="{% static "orange/assets/img/skills/mysql.svg" %}" alt="mysql" />
+                        <img class="skill-icon" src="{% static "orange/assets/img/skills/aws.svg" %}" alt="aws" />
+                        <img class="skill-icon" src="{% static "orange/assets/img/skills/git.svg" %}" alt="git" />
+                        <img class="skill-icon" src="{% static "orange/assets/img/skills/github.svg" %}" alt="github" />
+                    </ul>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Experience-->
+            <section class="resume-section" id="career">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Career</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">(주)일릭서</h3>
+                            <div class="subheading mb-0">개발팀/Pro - 백엔드 개발자</div>
+                            <div class="text-primary mb-5">2023.03 - 2024.08</div>
+                            <div>
+                                <p class="text-primary mb-0">1. 온라인 학습 플랫폼 개발</p>
+                                <ul >
+                                    <li>
+                                        일릭서 설립 초창기 팀원으로서 주요 프로젝트의 기획 및 개발에 참여
+                                    </li>
+                                    <li>
+                                        초기 Django 프로젝트 설계 및 환경 설정 주도
+                                    </li>
+                                    <li>
+                                        전반적인 API 서버 구축
+                                    </li>
+                                </ul>
+                            </div>
+                            <div>
+                                <p class="text-primary mb-0">2. 인증 및 권한 관리</p>
+                                <ul >
+                                    <li>
+                                        유저 로그인 및 회원가입 기능 전반 구현
+                                    </li>
+                                    <li>
+                                        소셜 로그인과 JWT 토큰 인증 시스템 도입
+                                    </li>
+                                    <li>
+                                        이메일 인증 기능 구현
+                                    </li>
+                                </ul>
+                            </div>
+                            <div>
+                                <p class="text-primary mb-0">3. 서버 아키텍처 개선</p>
+                                <ul >
+                                    <li>
+                                        Django 서버를 기존 모놀리식 아키텍처에서 React와 연동 가능한 REST 서버로 전환
+                                    </li>
+                                    <li>
+                                        RESTful API 설계 및 구현, 클라이언트-서버 간 통신 최적화
+                                    </li>
+                                </ul>
+                            </div>
+                            <div>
+                                <p class="text-primary mb-0">4. 프론트엔드 개발 일부 참여</p>
+                                <ul >
+                                    <li>
+                                        React 컴포넌트 수정, 커스텀 및 백엔드 서버와의 API 연동 작업 수행
+                                    </li>
+                                    <li>
+                                        프론트엔드와 백엔드를 동시에 담당하여 기능 구현 및 데이터 전달 최적화
+                                    </li>
+                                </ul>
+                            </div>
+                            <div>
+                                <p class="text-primary mb-0">5. 관리자 백오피스 개발</p>
+                                <ul >
+                                    <li>
+                                        관리자용 백오피스 설계 및 개발
+                                    </li>
+                                    <li>
+                                        데이터 관리, 사용자 관리, 통계 대시보드 등 핵심 기능 구현
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- PROJECTS -->
+            <section class="resume-section" id="projects">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">PROJECTS</h2>
+                    <!-- FIRST PROJECTS -->
+                    <div>
+                        <h3 class="text-primary">1. 공집합 (공부집합소)</h3>
+                        <p class="mb-0">프로젝트 기간 : 2023.03 ~ 2024.01</p>
+                        <p class="mb-0">관련 링크 : <a href="https://gongziphap.com" target="_blank">https://gongziphap.com</a></p>
+                        <ul class="list-inline dev-icons">
+                            <img class="skill-icon-projects" src="{% static "orange/assets/img/skills/django.svg" %}" alt="django"/>
+                            <img class="skill-icon-projects" src="{% static "orange/assets/img/skills/react.svg" %}" alt="react"/>
+                            <img class="skill-icon-projects" src="{% static "orange/assets/img/skills/aws.svg" %}" alt="aws"/>
+                            <img class="skill-icon-projects" src="{% static "orange/assets/img/skills/docker.svg" %}" alt="docker"/>
+                            <img class="skill-icon-projects" src="{% static "orange/assets/img/skills/mysql.svg" %}" alt="mysql"/>
+                            <img class="skill-icon-projects" src="{% static "orange/assets/img/skills/mongo.svg" %}" alt="mongo"/>
+                            <img class="skill-icon-projects" src="{% static "orange/assets/img/skills/redis.svg" %}" alt="redis"/>
+                            <img class="skill-icon-projects" src="{% static "orange/assets/img/skills/git.svg" %}" alt="git"/>
+                        </ul>
+                        <div>
+                            <h4 class="mb-2 mt-5">- 프로젝트 소개</h4>
+                            <p class="lead mb-0">공집합(공부집합소)는 각종 자격증을 취득하고자 하는 사람들에게 <span class="text-primary">온라인 학습</span> 환경을 제공하는 <span class="text-primary">웹 학습 플랫폼</span>이자</p>
+                            <p class="lead mb-0">교육기업과 강사분들의 학습 콘텐츠(문제, 전자책, 강의 영상)를 판매하고 LMS를 구축하여 </p>
+                            <p class="lead">문제학습시스템 서비스로 바로 생산해주는 <span class="text-primary">에듀테크 SaaS 솔루션</span>입니다.</p>
+                        </div>
+                        <div>
+                            <h4 class="mb-2 mt-5">- 담당한 개발 부분</h4>
+                            <p class="text-primary mb-0">Backend</p>
+                            <ul >
+                                <li>
+                                    Django 프로젝트 설계 및 환경 설정
+                                </li>
+                                <li>
+                                    유저 로그인 및 회원가입 기능 구현 (JWT 토큰 인증, 소셜 로그인, 이메일 인증 기능 등)
+                                </li>
+                                <li>
+                                    학습 결과 기능 (차트, 랭킹) 구현
+                                </li>
+                                <li>
+                                    강사 신청 기능 구현
+                                </li>
+                                <li>
+                                    강사 학습 콘텐츠 판매를 위한 업로드 기능 구현
+                                </li>
+                                <li>
+                                    영상 트랜스코딩, HLS 기능 구현
+                                </li>
+                                <li>
+                                    관리자 백오피스 기능 전반 구현
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <p class="text-primary mb-0">Frontend</p>
+                            <ul >
+                                <li>
+                                    Redux를 통한 유저 정보의 전역 상태 관리
+                                </li>
+                                <li>
+                                    강사 신청 페이지 컴포넌트 구현
+                                </li>
+                                <li>
+                                    강사 학습 콘텐츠 업로드 페이지 컴포넌트 구현
+                                </li>
+                                <li>
+                                    본인이 Backend에서 작성한 대부분의 api 직접 연동
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="mb-2 mt-5">- 상세 이미지</h4>
+                            <div class="row mb-4">
+                                <div class="col-12 col-md-6 mb-4">
+                                    <img class="img-fluid" src="{% static "orange/assets/img/project-image/gongziphap/gongziphap1.png" %}" alt="project1-detail1"/>
+                                </div>
+                                <div class="col-12 col-md-6 mb-4">
+                                    <img class="img-fluid" src="{% static "orange/assets/img/project-image/gongziphap/gongziphap2.png" %}" alt="project1-detail2"/>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-md-6 mb-4">
+                                    <img class="img-fluid" src="{% static "orange/assets/img/project-image/gongziphap/gongziphap3.png" %}" alt="project1-detail3"/>
+                                </div>
+                                <div class="col-12 col-md-6 mb-4">
+                                    <img class="img-fluid" src="{% static "orange/assets/img/project-image/gongziphap/gongziphap4.png" %}" alt="project1-detail4"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="my-5" />
+                    <!-- SECOND PROJECTS -->
+                    <div>
+                        <h3 class="text-primary">2. POPPING</h3>
+                        <p class="mb-0">프로젝트 기간 : 2024.06 ~ 2024.08</p>
+                        <p class="mb-0">관련 링크 : <a href="https://github.com/popping-official" target="_blank">https://github.com/popping-official</a></p>
+                        <ul class="list-inline dev-icons">
+                            <img class="skill-icon-projects" src="{% static "orange/assets/img/skills/django.svg" %}" alt="django"/>
+                            <img class="skill-icon-projects" src="{% static "orange/assets/img/skills/react.svg" %}" alt="react"/>
+                            <img class="skill-icon-projects" src="{% static "orange/assets/img/skills/mysql.svg" %}" alt="mysql"/>
+                            <img class="skill-icon-projects" src="{% static "orange/assets/img/skills/mongo.svg" %}" alt="mongo"/>
+                            <img class="skill-icon-projects" src="{% static "orange/assets/img/skills/redis.svg" %}" alt="redis"/>
+                            <img class="skill-icon-projects" src="{% static "orange/assets/img/skills/git.svg" %}" alt="git"/>
+                        </ul>
+                        <div>
+                            <h4 class="mb-2 mt-5">- 프로젝트 소개</h4>
+                            <p class="lead mb-0">POPPING(팝핑)은 오프라인 팝업 정보를 제공하고 온라인 팝업 서비스를 이용 할 수 있는 <span class="text-primary">팝업 플랫폼</span> 입니다.</p>
+                            <p class="lead mb-0">지도 서비스를 통해 <span class="text-primary">현재 오프라인으로 진행 중</span>인 팝업 스토어 정보를 제공하며</p>
+                            <p class="lead mb-0">해당 <span class="text-primary">팝업 스토어 주변에 있는</span> 맛집, 카페, 편의시설등에 대한 정보를 제공합니다.</p>
+                            <p class="lead">또한 온라인에서 판매중인 팝업 상품을 구매할 수 있습니다.</p>
+                        </div>
+                        <div>
+                            <h4 class="mb-2 mt-5">- 담당한 개발 부분</h4>
+                            <p class="text-primary mb-0">Backend</p>
+                            <ul >
+                                <li>
+                                    Django 프로젝트 설계 및 환경 설정
+                                </li>
+                                <li>
+                                    유저 로그인 및 회원가입 기능 구현
+                                </li>
+                                <li>
+                                    마이페이지 기능 구현
+                                </li>
+                                <li>
+                                    회원 등급 및 포인트 기능 구현
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <p class="text-primary mb-0">Frontend</p>
+                            <ul >
+                                <li>
+                                    Redux를 통한 유저 정보의 전역 상태 관리
+                                </li>
+                                <li>
+                                    미니게임 기능 구현 (타이머 시간 맞추기 게임, OX 퀴즈)
+                                </li>
+                                <li>
+                                    신규회원을 위한 튜토리얼 기능 구현 (React JoyRider)
+                                </li>
+                                <li>
+                                    본인이 Backend에서 작성한 모든 api 직접 연동
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="mb-2 mt-5">- 상세 이미지</h4>
+                            <div class="row mb-4">
+                                <div class="col-12 col-md-4 mb-4">
+                                    <img class="img-fluid" src="{% static "orange/assets/img/project-image/popping/popping1.png" %}" alt="project2-detail1"/>
+                                </div>
+                                <div class="col-12 col-md-4 mb-4">
+                                    <img class="img-fluid" src="{% static "orange/assets/img/project-image/popping/popping2.png" %}" alt="project2-detail2"/>
+                                </div>
+                                <div class="col-12 col-md-4 mb-4">
+                                    <img class="img-fluid" src="{% static "orange/assets/img/project-image/popping/popping3.png" %}" alt="project2-detail3"/>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-md-4 mb-4">
+                                    <img class="img-fluid" src="{% static "orange/assets/img/project-image/popping/popping4.png" %}" alt="project2-detail4"/>
+                                </div>
+                                <div class="col-12 col-md-4 mb-4">
+                                    <img class="img-fluid" src="{% static "orange/assets/img/project-image/popping/popping5.png" %}" alt="project2-detail5"/>
+                                </div>
+                                <div class="col-12 col-md-4 mb-4">
+                                    <img class="img-fluid" src="{% static "orange/assets/img/project-image/popping/popping6.png" %}" alt="project2-detail6"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Education-->
+            <section class="resume-section" id="education">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Education</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">K-Digital Training</h3>
+                            <div class="subheading mb-3">빅데이터기반 AI알고리즘서비스 개발자 과정</div>
+                            <div>기관 : 더조은컴퓨터아카데미 강남점</div>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">2022.06 - 2023.01</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">선문대학교</h3>
+                            <div class="subheading mb-3">글로벌경영학과</div>
+                            <div>졸업학점: 4.26</div>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">2016.03 - 2023.02</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Other-->
+            <section class="resume-section" id="other">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">OTHER</h2>
+                    <div class="mb-5">
+                        <h3 class="mb-5">Awards & Competitions</h3>
+                        <div class="d-flex flex-column flex-md-row justify-content-between mb-3">
+                            <div class="flex-grow-1">
+                                <p class="mb-0">[대회] 사이드 임팩트</p>
+                                <div>결과 : 1차 통과 (20팀 선발)</div>
+                            </div>
+                            <div class="flex-shrink-0"><span class="text-primary">2024.10</span></div>
+                        </div>
+                        <div class="d-flex flex-column flex-md-row justify-content-between mb-0">
+                            <div class="flex-grow-1">
+                                <p class="mb-0">[대회 및 수상] 제5회 K-디지털 트레이닝 해커톤</p>
+                                <div>결과 : 총 50개팀 중 최종 9등으로 장려상 수상</div>
+                            </div>
+                            <div class="flex-shrink-0"><span class="text-primary">2022.06</span></div>
+                        </div>
+                    </div>
+                    <hr class="mb-5" />
+                    <div>
+                        <h3 class="mb-5">Certifications</h3>
+                        <div class="d-flex flex-column flex-md-row justify-content-between mb-3">
+                            <div class="flex-grow-1">
+                                [자격증] SQL 개발자
+                            </div>
+                            <div class="flex-shrink-0"><span class="text-primary">2024.12</span></div>
+                        </div>
+                        <div class="d-flex flex-column flex-md-row justify-content-between mb-3">
+                            <div class="flex-grow-1">
+                                [일본어] JLPT N3급
+                            </div>
+                            <div class="flex-shrink-0"><span class="text-primary">2024.12</span></div>
+                        </div>
+                        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                            <div class="flex-grow-1">
+                                [영어] TOEIC 720점
+                            </div>
+                            <div class="flex-shrink-0"><span class="text-primary">2024.10</span></div>
+                        </div>
+                    </div>
+                    <hr class="mb-5" />
+                    <div>
+                        <h3 class="mb-5">Military Service</h3>
+                        <div class="d-flex flex-column flex-md-row justify-content-between mb-3">
+                            <div class="flex-grow-1">
+                                대한민국 육군 병장 만기제대
+                            </div>
+                            <div class="flex-shrink-0"><span class="text-primary">2017.10 - 2019.06</span></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="{% static "orange/js/scripts.js" %}"></script>
+    </body>
+</html>
