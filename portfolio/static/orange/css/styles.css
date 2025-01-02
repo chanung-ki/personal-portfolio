@@ -101,6 +101,11 @@
   height: 36px;
 }
 
+.img-profile-mobile {
+  max-width: 6rem;
+  max-height: 6rem;
+}
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
